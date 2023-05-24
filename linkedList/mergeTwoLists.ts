@@ -1,3 +1,5 @@
+// Patterns: 2-pointer
+
 class ListNode {
   val: number;
   next: ListNode | null;

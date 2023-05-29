@@ -1,0 +1,5 @@
+- depth first search (recursion)
+  - pre: clone / copy
+  - post: delete tree
+  - in-order: BST get nodes in ascending order
+- breadth first search (queue - iterative)

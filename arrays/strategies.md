@@ -1,0 +1,3 @@
+- hashmap
+- sorting first
+- two pointer

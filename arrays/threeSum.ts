@@ -33,6 +33,7 @@ function threeSum(nums: number[]): number[][] {
   return result; // return the result array
 }
 
+// too slow
 // function threeSum(nums: number[]): number[][] {
 //   const l = nums.length;
 //   let numMap = new Map<string, number[]>();
@@ -45,10 +46,10 @@ function threeSum(nums: number[]): number[][] {
 //         let numThree = nums[k];
 
 //         if (numOne + numTwo + numThree === 0) {
-//           let sortedNums = [numOne, numTwo, numThree].sort();
-//           let sortedNumsStr = sortedNums.join("");
+//           let sortedNums = [numOne, numTwo, numThree].sort((a, b) => a - b);
+//           let sortedNumsStr = sortedNums.join(",");
 
-//           if (!numMap.get(sortedNumsStr)) {
+//           if (!numMap.has(sortedNumsStr)) {
 //             numMap.set(sortedNumsStr, sortedNums);
 //           }
 //         }

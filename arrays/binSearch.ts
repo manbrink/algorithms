@@ -18,25 +18,5 @@ function binSearch(nums: number[], target: number): number {
 }
 
 /*
-call 1
-nums = [-1,0,3,5,9,12]
-target = 9
-midIdx = 3
-midNum = 5
-
-call 2
-nums = [9,12]
-target = 9
-midIdx = 1
-midNum = 12
-
-call 3
-nums = [9]
-target = 9
-midIdx = 0
-midNum = 9
-
-  return midIdx: error - returning idx of subarray, not whole original array
-
 
 */

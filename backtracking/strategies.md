@@ -1,0 +1,1 @@
+- usually performed with a decision tree, which means making recursive call for each branch usually with a for loop.

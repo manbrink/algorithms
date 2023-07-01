@@ -1,0 +1,2 @@
+- most problems follow the formula: divide, conquer, combine (with conquer and combine happening close together).
+- binary search is a common D&C approach.

@@ -21,10 +21,12 @@ function isValidBSTHelper(node, min, max) {
     return true;
   }
 
+  // conquer
   if ((min !== null && node.val <= min) || (max !== null && node.val >= max)) {
     return false;
   }
 
+  // divide & combine
   return (
     isValidBSTHelper(node.left, min, node.val) &&
     isValidBSTHelper(node.right, node.val, max)

@@ -11,7 +11,6 @@ class Solution:
 
         min_heap = []
 
-        # Initialize the heap with pairs (nums1[i], nums2[0], nums2_index)
         for i in range(min(k, len(nums1))):
             heapq.heappush(
                 min_heap, (nums1[i] + nums2[0], nums1[i], nums2[0], 0))

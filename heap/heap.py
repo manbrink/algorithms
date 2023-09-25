@@ -2,6 +2,13 @@ class MinHeap:
     def __init__(self):
         self.heap = []
 
+    def populate(self, arr):
+        for val in arr:
+            self.push(val)
+
+    def clear(self):
+        self.heap = []
+
     # add element to heap, maintaining minheap property
     def push(self, val):
         self.heap.push(val)

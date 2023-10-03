@@ -13,6 +13,11 @@
   // and set the newHead and newEnd appropriately.
 
  class Solution {
+    public static void main(String[] args) {
+        int[] nums = [1, 2, 3, 4, 5];
+        System.out.println(rotateRight(nums));
+    }
+
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null || k == 0) {
             return head;

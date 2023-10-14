@@ -27,6 +27,10 @@ class Solution {
   }
 }
 
+// If a task has a frequency less than the maximum frequency, it means that it doesn't occur as frequently 
+// as the task with the maximum frequency. Therefore, it can be scheduled alongside the tasks 
+// with the maximum frequency without any additional idle time.
+
 // In the context of this problem, the maxCount variable represents the number of tasks that have the same 
 // highest frequency. These tasks can be scheduled alongside the task with the highest 
 // frequency without any additional idle time. Therefore, we add maxCount to the calculation 
